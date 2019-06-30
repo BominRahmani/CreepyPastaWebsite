@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Larscano</title>
+    <link rel="stylesheet" href="Header.css">
+    <script type="text/javascript" src="TabEngine.js"></script>
+</head>
+
+<!-- This is for Header-->
+<div id="Images" class="tabcontent">
+    <h1>"Images"</h1>
+    <p> L’appel Du Vide</p>
+    <!-- This is For Images-->
+    <img  src="Images/M.Tumulty.jpg" alt="Damos">
+    <img  src="Images/TwistOnScream.jpg" alt="Fear">
+</div>
+
+<div id="Stories" class="tabcontent">
+    <h1> Stories</h1>
+</div>
+
+<div id="Discussion" class="tabcontent">
+    <h1>Discussions</h1>
+    <p> Discussion and Question Board</p>
+</div>
+
+<div id="AboutUs" class="tabcontent">
+    <h1> About Us </h1>
+</div>
+
+<button class="tablink" onclick="OpenImages('Images', this, 'crimson')" id="defaultOpen">Images</button>
+<button class="tablink" onclick="OpenImages('Stories', this, 'darkgrey')">Stories</button>
+<button class="tablink" onclick="OpenImages('Discussion', this, 'bisque')">Discussion</button>
+<button class="tablink" onclick="OpenImages('AboutUs', this, 'cornflowerblue')">AboutUs</button>
+
+
+<!--This plays Audio On Loop-->
+<audio controls autoplay loop hidden>
+    <source src="Tiptoe.mp3" type="audio/mpeg">
+    <p>If you can read this, your browser does not support the audio element.</p>
+</audio>
+
+</html>
